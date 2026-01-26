@@ -2,15 +2,51 @@ html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: deepskyblue;
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
 }
+
+.introduction{
+   text-align: center; 
+   margin: 10%;
+}
+
+.headliner{
+    background-color: aliceblue;
+    border-style: inset;
+    border-radius: 20%;
+    border-color: black;
+    border-width: 10pt;
+}
+
+.projectsContainer{
+    text-align: left;
+    margin: 10%;
+}
+
 .project img{
     width: 80%;
     height: auto;
     display: block;
     margin: auto;
+    border-radius: 5%;
+}
+
+.project{
+    margin-bottom: 10%;
+    background-color: aliceblue;
+    border-radius: 5%;
+    width: fit-content;
+    height: auto;
+    display: block;
+    align-content: center;
+}
+
+.project p, h3, h4, a{
+    /* text-align: center; */
+    margin: 15pt;
 }
