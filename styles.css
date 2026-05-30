@@ -2,7 +2,7 @@ html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: orange;
+    background-color: rgb(255, 174, 24);
 }
 
 body{
@@ -15,7 +15,7 @@ body{
     justify-self: center;
     text-align: center; 
     margin-top: 2.5%;
-    background-color: rgb(40, 40, 43);
+    background-color: rgb(29, 29, 74);
     border-style: inset;
     border-radius: 20%;
     /* border-color: rgb(40, 40, 43); */
@@ -27,12 +27,16 @@ body{
     justify-self: center;
     text-align: center; 
     margin: 5%;
-    background-color: rgb(40, 40, 43);
+    background-color: rgb(29, 29, 74);
     width: 60%;
     height: auto;
     border-radius: 20%;
     /* border-width: 10pt;
     border-style: inset; */
+}
+
+.introduction p{
+    padding: 20pt;
 }
 
 .projectsContainer{
@@ -43,8 +47,8 @@ body{
 
 .projectTitle{
     /* text-align: center; */
-    background-color: rgb(40, 40, 43);
-    width: 80%;
+    background-color: rgb(29, 29, 74);
+    width: 60%;
     height: auto;
     border-radius: 20%;
     border-style: inset;
@@ -61,7 +65,7 @@ body{
 
 .project{
     margin-bottom: 10%;
-    background-color: rgb(40, 40, 43);
+    background-color: rgb(29, 29, 74);
     border-radius: 5%;
     width: 70%;
     height: auto;
@@ -73,14 +77,18 @@ body{
 
 .project p, h3, h4, a{
     /* text-align: center; */
-    margin: 15pt;
+    margin: 20pt;
+}
+
+.project h3{
+    font-size: xx-large;
 }
 
 a:link {
   color: aliceblue;
   background-color: transparent;
   text-decoration: none;
-  font-size: xx-large;
+  /* font-size: xx-large; */
 }
 a:hover {
   color: orange;
